@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" as="image" href="assets/media/hero-poster.webp" fetchpriority="high">
+<title>Joust Revival: the jousting game built from the real thing</title>
+<meta name="description" content="A jousting game built on real 15th-century rules, real venues and real knights, with motion measured from real footage. Free in your browser on phone and desktop. A full PC version is in the making.">
+<link rel="canonical" href="https://historic-pictures.github.io/joust-revival-site/">
+
+<meta name="theme-color" content="#16100b">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Joust Revival">
+<meta property="og:title" content="Joust Revival: the jousting game built from the real thing">
+<meta property="og:description" content="A jousting game built on real 15th-century rules, real venues and real knights, with motion measured from real footage. Free in your browser on phone and desktop. A full PC version is in the making.">
+<meta property="og:url" content="https://historic-pictures.github.io/joust-revival-site/">
+<meta property="og:image" content="https://historic-pictures.github.io/joust-revival-site/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Two armoured knights meet at the tilt; both lances shatter into splinters.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Joust Revival: the jousting game built from the real thing">
+<meta name="twitter:description" content="A jousting game built on real 15th-century rules, real venues and real knights, with motion measured from real footage. Free in your browser on phone and desktop. A full PC version is in the making.">
+<meta name="twitter:image" content="https://historic-pictures.github.io/joust-revival-site/assets/img/og.jpg">
+<link rel="icon" href="assets/brand/emblem-96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="assets/fonts/GrenzeGotisch-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/EBGaramond-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Joust Revival home"><img src="assets/brand/emblem-96.png" width="44" height="44" alt=""><div><b>Joust Revival</b><span>The joust, as it was</span></div></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main"><a href="index.html#features">Features</a><a href="index.html#history">History</a><a href="roadmap.html">Roadmap</a><a href="about.html#mission">Mission</a><a href="devlog/index.html">Devlog</a><a href="support.html">Support</a><a href="press.html">Press</a></nav>
+    <a class="btn head-cta" href="https://historic-pictures.github.io/tilt/" data-cfg="gameUrl">Play free</a>
+  </div>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="hero-title" style="padding:0">
+  <div class="hero-media">
+    <video id="heroVideo" muted loop playsinline preload="none" poster="assets/media/hero-poster.webp" data-src="assets/media/hero.mp4" data-src-small="assets/media/hero-640.mp4" aria-label="Gameplay: a knight gallops down the lists, both lances shatter on impact, replayed in slow motion"></video>
+  </div>
+  <div class="wrap">
+    <span class="kicker">The joust, as it was</span>
+    <h1 id="hero-title">The jousting game <em>built from the real thing.</em></h1>
+    <p class="lede">Real rules from 1330 to 1501. Real venues and real knights. Horses matched frame by frame to Muybridge's 1878 photographs, and motion measured from real jousting footage. Free in your browser today, on phone and desktop. The full PC game is in the making.</p>
+    <div class="hero-ctas">
+      <a class="btn big" href="https://historic-pictures.github.io/tilt/" data-cfg="gameUrl"><span class="stack">Play free in your browser<small>No download. Phone or desktop.</small></span></a>
+      <a class="btn big ghost" data-cfg="wishlistUrl" data-live="Wishlist on Steam" data-soon="The Steam page opens once the PC version is playable" aria-disabled="true"><span class="stack"><span class="lbl">Wishlist the PC version</span><small>Steam page coming</small></span></a>
+    </div>
+    <div class="hero-meta"><span>Free to play</span><span>Phone &amp; desktop</span><span>Online &amp; ranked</span><span>PC version in development</span></div>
+  </div>
+  <div class="video-ctl"><button id="heroVideoBtn" type="button">Pause video</button></div>
+</section>
+
+<div class="numbers" aria-label="Joust Revival in numbers">
+  <div class="wrap">
+    <ul>
+      <li><b>5</b><span>Real venues</span></li>
+      <li><b>8</b><span>Rule sets</span></li>
+      <li><b>9</b><span>Real knights</span></li>
+      <li><b>4</b><span>Harnesses</span></li>
+      <li><b>4</b><span>Helms</span></li>
+      <li><b>4</b><span>Horse breeds</span></li>
+      <li><b>20</b><span>Real jousts studied</span></li>
+    </ul>
+  </div>
+</div>
+
+<section id="features" aria-labelledby="features-title">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="kicker">Why Joust Revival</span>
+      <h2 id="features-title">Aiming to be the most realistic jousting game ever made</h2>
+      <div class="divider c" aria-hidden="true"></div>
+      <p class="lede">Big claim. Here is what stands behind it: what is in the game today, and what we are building next.</p>
+    </div>
+
+    <div class="features">
+      <article class="feature reveal">
+        <div class="media"><span class="num" aria-hidden="true">I</span>
+          <img src="assets/img/shot-impact-800.webp" srcset="assets/img/shot-impact-800.webp 800w, assets/img/shot-impact-1600.webp 1600w" sizes="(min-width:1100px) 380px, (min-width:760px) 50vw, 100vw" width="800" height="450" loading="lazy" decoding="async" alt="In-game replay: two knights meet at the tilt and both lances burst into splinters">
+        </div>
+        <div class="body">
+          <span class="kicker">Realism · Physics &amp; motion</span>
+          <h3>Measured, not guessed</h3>
+          <p>We tracked twenty real jousting videos frame by frame and measured what a lance and a rider actually do at the moment of the strike.</p>
+          <ul class="facts">
+            <li>Lances that bow, crack and splinter; hit reactions that follow where the point lands; real falls <span class="tag live">Live</span></li>
+            <li>Measured: a lance bows for about a quarter of a second before it breaks; an unhorsed rider is on the sand 0.85 to 1.3 seconds after the blow</li>
+            <li class="soon">Physics overhaul tuned to those numbers <span class="tag dev">In development</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <div class="media"><span class="num" aria-hidden="true">II</span>
+          <img src="assets/img/venue-bruges-800.webp" srcset="assets/img/venue-bruges-800.webp 800w, assets/img/venue-bruges-1600.webp 1600w" sizes="(min-width:1100px) 380px, (min-width:760px) 50vw, 100vw" width="800" height="450" loading="lazy" decoding="async" alt="The lists at Bruges for the Pas de l'Arbre d'Or: packed stands, gabled houses and a belfry">
+        </div>
+        <div class="body">
+          <span class="kicker">Historical accuracy</span>
+          <h3>Real rules. Real lists. Real knights.</h3>
+          <p>Joust under the rules men actually rode by, at tournaments that actually took place, against the knights who were there.</p>
+          <ul class="facts">
+            <li>Rule sets from the sources: Tiptoft's Ordinances (England, 1466), the Statutes of the Band (Castile, 1330), the Deutsches Gestech and the Scharfrennen</li>
+            <li>Smithfield 1390, Saint-Inglevert 1390, the Passo Honroso 1434, the Golden Tree 1468, the Gesellenstechen 1501</li>
+            <li>Boucicaut, Jacques de Lalaing, Suero de Quiñones, Ulrich von Liechtenstein, the Black Prince and more</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <div class="media"><span class="num" aria-hidden="true">III</span>
+          <img src="assets/img/armour-stechzeug-800.webp" srcset="assets/img/armour-stechzeug-800.webp 800w, assets/img/armour-stechzeug-1600.webp 1600w" sizes="(min-width:1100px) 380px, (min-width:760px) 50vw, 100vw" width="800" height="450" loading="lazy" decoding="async" alt="Close-up of a knight in black German Stechzeug jousting armour on a black destrier">
+        </div>
+        <div class="body">
+          <span class="kicker">Armour &amp; horses</span>
+          <h3>Three centuries of steel. Horses at true size.</h3>
+          <p>Four harnesses and four helms on one rigged knight, three lances at their true length, and four breeds of horse.</p>
+          <ul class="facts">
+            <li>Mail and surcoat (c. 1250), coat of plates (c. 1380), Milanese harness (c. 1450), Stechzeug (c. 1500)</li>
+            <li>Great helm, houndskull bascinet, armet and frog-mouth helm, each with its own protection and view. In the frog-mouth you only see out when you lean in.</li>
+            <li>Destrier, courser, rouncey and Andalusian at 15th-century size: 14.1 to 15.2 hands, 420 to 540 kg</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <div class="media"><span class="num" aria-hidden="true">IV</span>
+          <img src="assets/img/shot-chase-hud-800.webp" srcset="assets/img/shot-chase-hud-800.webp 800w, assets/img/shot-chase-hud-1600.webp 1600w" sizes="(min-width:1100px) 380px, (min-width:760px) 50vw, 100vw" width="800" height="450" loading="lazy" decoding="async" alt="Gameplay at Smithfield: the chase camera behind a knight at the gallop, with the score bar and the crowd's favour on screen">
+        </div>
+        <div class="body">
+          <span class="kicker">Online &amp; ranked</span>
+          <h3>Ride against the world</h3>
+          <p>Joust a friend, take on whoever is waiting, or climb the rankings.</p>
+          <ul class="facts">
+            <li>Joust a friend in a private room with a code; public rooms and Quick match</li>
+            <li>Find match pairs you by rating; Ranked uses Glicko-2 ratings, six divisions from Squire to Champion, and a leaderboard</li>
+            <li>Accounts with cloud saves</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <div class="media"><span class="num" aria-hidden="true">V</span>
+          <img src="assets/img/shot-herald-roll-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="Work in progress: the herald's roll for Smithfield, listing the knights, their courses and the prizes">
+        </div>
+        <div class="body">
+          <span class="kicker">Tournaments</span>
+          <h3>A season on the circuit</h3>
+          <p>Ride a season of tournaments, build your name and your household.</p>
+          <ul class="facts">
+            <li>Knockout tournaments at every venue, honours, and a victory lap for the winner <span class="tag live">Live</span></li>
+            <li>Renown ranks from Squire to Flower of Chivalry; skills and feats; a squire, groom, armourer, farrier and pursuivant <span class="tag live">Live</span></li>
+            <li class="soon">Events shaped like real 15th-century ones: a pas d'armes over several days, the herald's score roll, the prize joust, Best Lance and the Ladies' Prize <span class="tag dev">In development</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <div class="media"><span class="num" aria-hidden="true">VI</span>
+          <img src="assets/img/shot-replay-800.webp" srcset="assets/img/shot-replay-800.webp 800w, assets/img/shot-replay-1600.webp 1600w" sizes="(min-width:1100px) 380px, (min-width:760px) 50vw, 100vw" width="800" height="450" loading="lazy" decoding="async" alt="The replay screen: the impact angle, speed controls, and a diagram of where each lance struck">
+        </div>
+        <div class="body">
+          <span class="kicker">Cinematic presentation</span>
+          <h3>Presented like a cup final</h3>
+          <p>Every course gets the treatment a big match gets on television.</p>
+          <ul class="facts">
+            <li>A match intro with trumpets, the herald's "Laissez-aller!", the judges' flags</li>
+            <li>Automatic replays from five angles, slow motion down to 0.1×, frame by frame, a free camera, and the view through each rider's visor</li>
+            <li>Injuries, yielding and the surgeon; a helm blow that rings and dazes you; a crowd of commons and nobles, each with its own favour</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="dark" aria-labelledby="real-title">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Built from the real thing</span>
+      <h2 id="real-title">Frame by frame</h2>
+      <p class="lede">Most jousting games animate what looks about right. We start from footage, photographs and the written rules, and we show our working.</p>
+    </div>
+
+    <div class="spot">
+      <figure class="spot-media">
+        <video muted loop playsinline preload="none" data-poster="assets/media/break-poster.webp" data-src="assets/media/break.mp4" width="768" height="432" aria-label="Slow-motion replay of both lances shattering on impact"></video>
+        <figcaption>In-game replay at half speed. Captured from the current browser build.</figcaption>
+      </figure>
+      <div>
+        <h3>The lance, measured</h3>
+        <p>We tracked real jousts with pose tracking and point tracking, and read the strikes off frame by frame. What we found:</p>
+        <div class="table-scroll"><table class="facts-table">
+          <tr><th>Lance bows before it breaks</th><td>about 0.26 s</td></tr>
+          <tr><th>Crack to splinters in the air</th><td>0.15 to 0.25 s</td></tr>
+          <tr><th>Head snapped back by a helm strike</th><td>about 35° in 0.1 s</td></tr>
+          <tr><th>Unhorsing: blow to the ground</th><td>0.85 s over the cantle, 1.3 s thrown sideways</td></tr>
+          <tr><th>Rider's bob in the saddle at the gallop</th><td>about 5 cm</td></tr>
+        </table></div>
+        <p class="note">From our own analysis of public jousting videos; small samples, so read them as "seen in", not as statistics. These numbers drive the physics overhaul now in development.</p>
+      </div>
+    </div>
+
+    <div class="spot flip">
+      <figure class="spot-media">
+        <video muted loop playsinline preload="none" data-poster="assets/media/gallop-poster.webp" data-src="assets/media/gallop.mp4" width="768" height="432" aria-label="A knight on a courser gallops down the lists at Smithfield, seen from the side"></video>
+        <figcaption>The gallop in the game today, tracked from the side.</figcaption>
+      </figure>
+      <div>
+        <h3>The gallop, after Muybridge</h3>
+        <p>In 1878 Eadweard Muybridge photographed the mare Sallie Gardner at full gallop and settled what a galloping horse really does with its legs. We laid our horse's gallop over his frames and fixed it until every footfall matched.</p>
+        <p>The horse itself was traced from photographs of real horses: neck, shoulder, head and legs. The four breeds stand at the heights and weights of 15th-century warhorses.</p>
+        <p><a class="btn blue" href="devlog/muybridge-gallop.html">Read how we did it</a></p>
+      </div>
+    </div>
+
+    <div class="spot">
+      <figure class="spot-media">
+        <video muted loop playsinline preload="none" data-poster="assets/media/fall-poster.webp" data-src="assets/media/fall.mp4" width="768" height="432" aria-label="Replay camera following a rider as he is carried back over the cantle"></video>
+        <figcaption>The fall camera in an automatic replay.</figcaption>
+      </figure>
+      <div>
+        <h3>Every course, replayed</h3>
+        <p>After each course the game cuts its own replay, like a goal in a football broadcast: one angle for an ordinary pass, more for a broken lance, three for a helm strike or an unhorsing. Then you take the camera: five fixed angles, the view through either rider's visor, a free camera, slow motion and frame by frame.</p>
+        <p>The replay records the exact frame and lance pose of the strike, so the point lands in the replay exactly where it landed in the joust.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="field-title">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="kicker">The field</span>
+      <h2 id="field-title">Ride against the men who were there</h2>
+      <div class="divider c" aria-hidden="true"></div>
+      <p class="lede">Every opponent in Joust Revival is a real jouster, rated in the game like a player in a football game. Ratings as they appear on the match card.</p>
+    </div>
+    <div class="cards">
+      <div class="kcard"><div class="ovr">93<small>OVR</small></div><div class="shield" style="background:#191919"></div><h4>Edward, the Black Prince</h4><div class="land">England</div><div class="kit">Destrier · coat of plates</div></div>
+      <div class="kcard"><div class="ovr">92<small>OVR</small></div><div class="shield" style="background:linear-gradient(#191919 0 38%,#e0b83c 38% 60%,#191919 60%)"></div><h4>Maximilian, "Freydal"</h4><div class="land">Empire</div><div class="kit">Destrier · Stechzeug</div></div>
+      <div class="kcard"><div class="ovr">90<small>OVR</small></div><div class="shield" style="background:linear-gradient(#a81e1e 0 30%,#e0b83c 30%)"></div><h4>Ulrich von Liechtenstein</h4><div class="land">Styria</div><div class="kit">Destrier · mail</div></div>
+      <div class="kcard"><div class="ovr">88<small>OVR</small></div><div class="shield" style="background:linear-gradient(135deg,#ece8dc 0 40%,#191919 40% 60%,#ece8dc 60%)"></div><h4>Palman Bracht</h4><div class="land">Styria</div><div class="kit">Destrier · coat of plates</div></div>
+      <div class="kcard"><div class="ovr">87<small>OVR</small></div><div class="shield" style="background:repeating-linear-gradient(90deg,#a81e1e 0 10px,#ece8dc 10px 20px)"></div><h4>Jacques de Lalaing</h4><div class="land">Burgundy</div><div class="kit">Courser · Milanese</div></div>
+      <div class="kcard"><div class="ovr">87<small>OVR</small></div><div class="shield" style="background:conic-gradient(from 90deg at 50% 45%,#e0b83c 0 25%,#1f4690 0 50%,#e0b83c 0 75%,#1f4690 0)"></div><h4>Suero de Quiñones</h4><div class="land">León</div><div class="kit">Andalusian · Milanese</div></div>
+      <div class="kcard"><div class="ovr">84<small>OVR</small></div><div class="shield" style="background:linear-gradient(#a81e1e 0 30%,#ece8dc 30%)"></div><h4>Jean le Meingre, "Boucicaut"</h4><div class="land">France</div><div class="kit">Destrier · coat of plates</div></div>
+      <div class="kcard"><div class="ovr">81<small>OVR</small></div><div class="shield" style="background:#1f4690"></div><h4>Renaud de Roye</h4><div class="land">France</div><div class="kit">Courser · coat of plates</div></div>
+      <div class="kcard"><div class="ovr">75<small>OVR</small></div><div class="shield" style="background:linear-gradient(transparent 38%,#a81e1e 38% 58%,transparent 58%),repeating-conic-gradient(#e0b83c 0 25%,#1f4690 0 50%) 0 0/16px 16px"></div><h4>Sir Thomas Clifford</h4><div class="land">England</div><div class="kit">Rouncey · mail</div></div>
+    </div>
+    <p class="note" style="text-align:center;margin-top:18px">More real jousters are planned, among them Anthony Woodville, Antoine the Grand Bastard of Burgundy and Adolf of Cleves.</p>
+  </div>
+</section>
+
+<section class="dark" aria-labelledby="venues-title" style="padding-top:64px">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">The stadiums</span>
+      <h2 id="venues-title">Five lists, five great tournaments</h2>
+      <p class="lede">Each venue is a real tournament, with its own host, its own sky and its own rules of the day.</p>
+    </div>
+    <div class="venues">
+      <figure class="venue"><img src="assets/img/venue-smithfield-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="Smithfield: long stands on both sides of the tilt and a castle beyond"><figcaption class="cap"><b>Smithfield</b><span>London · 1390</span></figcaption></figure>
+      <figure class="venue"><img src="assets/img/venue-inglevert-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="Saint-Inglevert near Calais: the lists under a bright sky"><figcaption class="cap"><b>Saint-Inglevert</b><span>Calais · 1390</span></figcaption></figure>
+      <figure class="venue"><img src="assets/img/venue-bruges-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="The Golden Tree at Bruges in evening light"><figcaption class="cap"><b>The Golden Tree</b><span>Bruges · 1468</span></figcaption></figure>
+      <figure class="venue"><img src="assets/img/venue-nuremberg-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="The Gesellenstechen at Nuremberg, the stands and the city's spires"><figcaption class="cap"><b>Gesellenstechen</b><span>Nuremberg · 1501</span></figcaption></figure>
+    </div>
+    <p class="muted small" style="margin-top:14px">And the fifth: the Passo Honroso at the bridge of Órbigo, León, 1434, ridden under the Castilian rules in the open field.</p>
+
+    <h3 style="margin-top:46px;color:var(--gold-2)">From the game</h3>
+    <div class="gallery">
+      <figure><img src="assets/img/shot-first-person-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="First-person view through the visor slit, the opponent ahead down the tilt"><figcaption>Through your visor</figcaption></figure>
+      <figure><img src="assets/img/armour-milanese-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="A knight in Milanese harness and armet at Bruges"><figcaption>Milanese harness, armet</figcaption></figure>
+      <figure><img src="assets/img/shot-crowd-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="The stands at Bruges, packed and cheering"><figcaption>The crowd at Bruges</figcaption></figure>
+      <figure><img src="assets/img/armour-mail-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="Sir Thomas Clifford in mail and surcoat at Smithfield"><figcaption>Clifford, mail and surcoat</figcaption></figure>
+    </div>
+    <p class="note" style="margin-top:12px;color:var(--parch-3)">All captures from the current free browser build. New horse hair, new people and crowd, and a new interface are in development; these shots will be replaced as they land.</p>
+  </div>
+</section>
+
+<section id="history" aria-labelledby="history-title">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">The history</span>
+      <h2 id="history-title">The great sport of the 15th century</h2>
+      <div class="divider" aria-hidden="true"></div>
+      <p class="lede">Knights rode a circuit of tournaments, heralds kept the score, and crowds packed the stands to watch the lances break. Joust Revival is built on what the records say.</p>
+    </div>
+    <div class="history">
+      <div class="plates">
+        <figure>
+          <img src="assets/img/history/manesse-klingen-450.webp" srcset="assets/img/history/manesse-klingen-450.webp 450w, assets/img/history/manesse-klingen-900.webp 900w" sizes="(min-width:960px) 220px, 50vw" width="450" height="671" loading="lazy" decoding="async" alt="Codex Manesse miniature: Walther von Klingen unhorses his opponent while ladies watch from the gallery">
+          <figcaption>Walther von Klingen at the joust. Codex Manesse, fol. 52r.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/history/manesse-anhalt-450.webp" srcset="assets/img/history/manesse-anhalt-450.webp 450w, assets/img/history/manesse-anhalt-900.webp 900w" sizes="(min-width:960px) 220px, 50vw" width="450" height="616" loading="lazy" decoding="async" alt="Codex Manesse miniature: the Duke of Anhalt in a tournament mêlée beneath a gallery of ladies">
+          <figcaption>The Duke of Anhalt in the tournament. Codex Manesse, fol. 17r.</figcaption>
+        </figure>
+        <p class="credit" style="grid-column:1/-1">Codex Manesse, Zurich, c. 1300–1340. Heidelberg University Library, Cod. Pal. germ. 848. Public domain, via Wikimedia Commons. The look of Joust Revival's interface is drawn from this manuscript.</p>
+      </div>
+      <ol class="chron">
+        <li><b>1330 · The Statutes of the Band</b><p>Alfonso XI of Castile's knightly Order of the Band writes down how its members should joust in the open field.</p><cite>Noel Fallows, Jousting in Medieval and Renaissance Iberia (2010).</cite></li>
+        <li><b>1390 · Saint-Inglevert</b><p>Near Calais, Boucicaut, Renaud de Roye and the lord of Sempy hold the lists for thirty days against all comers.</p><cite>Froissart, Chronicles.</cite></li>
+        <li><b>1390 · Smithfield</b><p>Richard II's great jousts outside the walls of London. The stands were raised under the King's Clerk of Works: Geoffrey Chaucer.</p><cite>Chaucer Life-Records.</cite></li>
+        <li><b>1434 · The Passo Honroso</b><p>At the bridge of Órbigo, Suero de Quiñones vows to break three hundred lances. In a month, 166 combats are run.</p><cite>Wikipedia, "Pas d'armes".</cite></li>
+        <li><b>1466 · Tiptoft's Ordinances</b><p>John Tiptoft, Earl of Worcester and Constable of England, writes the scoring for the royal jousts: a lance broken on the body counts one, on the helm two, point meeting point or a man borne to the ground three. Strike the horse and you lose the prize.</p><cite>Bodleian Library archive catalogue; transcription of the ordinances.</cite></li>
+        <li><b>1468 · The Golden Tree</b><p>In the market square of Bruges, for the wedding of Charles the Bold and Margaret of York, the Bastard of Burgundy holds the Pas de l'Arbre d'Or against twenty-six challengers.</p><cite>pasdarmes.org.</cite></li>
+        <li><b>c. 1500 · The Gesellenstechen</b><p>In Nuremberg the sons of the patrician families joust in the market square, in the heavy German jousting harness.</p><cite>Historisches Lexikon Bayerns, "Tournaments".</cite></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="roadmap" aria-labelledby="road-title">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Roadmap</span>
+      <h2 id="road-title">Where the game is going</h2>
+      <p class="lede">From the free browser game to a full PC game on Unreal Engine. Honest about what is done and what is not.</p>
+    </div>
+    <div class="road">
+      <div class="col now"><h3>Now</h3><span class="when">Live, free in your browser</span><ul>
+        <li><b>The joust</b><span>5 venues, 8 rule sets, 9 real knights, 4 harnesses, 4 helms, 4 horses, 3 lances</span></li>
+        <li><b>Online</b><span>Friends, public rooms, ranked with Glicko-2, accounts</span></li>
+        <li><b>Career</b><span>Knockout tournaments, renown, retinue, replays</span></li>
+      </ul></div>
+      <div class="col"><h3>Next</h3><span class="when">In development</span><ul>
+        <li><b>Physics overhaul</b><span>Tuned to the footage measurements</span></li>
+        <li><b>People</b><span>Body types and faces, a new crowd</span></li>
+        <li><b>The look</b><span>Horse hair and coats, a new manuscript interface</span></li>
+        <li><b>Tournament events</b><span>Herald's roll, Best Lance, Ladies' Prize</span></li>
+      </ul></div>
+      <div class="col"><h3>Later</h3><span class="when">Planned</span><ul>
+        <li><b>A story career</b><span>One knight's life on the circuit</span></li>
+        <li><b>Seasons</b><span>Ranked seasons, friends and messages</span></li>
+      </ul></div>
+      <div class="col pc"><h3>PC version</h3><span class="when">Unreal Engine · Steam</span><ul>
+        <li><b>The full game</b><span>Built in Unreal Engine once the joust is right</span></li>
+        <li><b>Steam page</b><span>When there is a playable Unreal build</span></li>
+        <li><b>Kickstarter</b><span>Maybe, later, with a playable slice</span></li>
+      </ul></div>
+    </div>
+    <p style="margin-top:24px"><a class="btn blue" href="roadmap.html">The full roadmap</a> &nbsp; <a class="btn ghost" href="about.html#mission">Our mission</a></p>
+  </div>
+</section>
+
+<section aria-labelledby="devlog-title">
+  <div class="wrap">
+    <div class="two">
+      <div>
+        <span class="kicker">Devlog</span>
+        <h2 id="devlog-title">How we taught horses to gallop like Muybridge's</h2>
+        <p class="lede">The first entry in the devlog: how a photograph from 1878 fixed our horse's legs.</p>
+        <p><a class="btn" href="devlog/muybridge-gallop.html">Read the post</a> &nbsp; <a href="devlog/index.html">All posts</a></p>
+      </div>
+      <a href="devlog/muybridge-gallop.html" aria-label="Read: How we taught horses to gallop like Muybridge's"><img class="framed" src="assets/img/history/muybridge-1878-600.webp" srcset="assets/img/history/muybridge-1878-600.webp 600w, assets/img/history/muybridge-1878-1200.webp 1200w" sizes="(min-width:860px) 560px, 100vw" width="600" height="372" loading="lazy" decoding="async" alt="Eadweard Muybridge, The Horse in Motion, 1878: twelve photographs of Sallie Gardner at a gallop"></a>
+    </div>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="cta-title">
+  <div class="wrap">
+    <h2 id="cta-title">Lower your lance</h2>
+    <p class="lede">Joust Revival is free to play right now, in any modern browser, on your phone or your desktop.</p>
+    <div class="hero-ctas">
+      <a class="btn big blue" href="https://historic-pictures.github.io/tilt/" data-cfg="gameUrl">Play free in your browser</a>
+      <a class="btn big ghost" href="support.html">Support the game</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="lozenge-x" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>The Herald's Letter</h4>
+        <p>News from the lists: new venues, the PC version, playtests. No spam, and you can leave whenever you like.</p>
+        <form class="signup" action="#" novalidate>
+          <label class="vh" for="nl-0">E-mail address</label>
+          <input id="nl-0" type="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+          <button class="btn" type="submit">Sign up</button>
+          <p class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+        <h4 style="margin-top:22px">Follow</h4>
+        <div class="socials"><a data-cfg="social.discord" data-soon="Discord: coming soon" aria-disabled="true">Discord</a><a data-cfg="social.youtube" data-soon="YouTube: coming soon" aria-disabled="true">YouTube</a><a data-cfg="social.tiktok" data-soon="TikTok: coming soon" aria-disabled="true">TikTok</a><a data-cfg="social.x" data-soon="X: coming soon" aria-disabled="true">X</a></div>
+      </div>
+      <div>
+        <h4>The game</h4>
+        <ul>
+          <li><a href="https://historic-pictures.github.io/tilt/" data-cfg="gameUrl">Play free in your browser</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#history">The history</a></li>
+          <li><a href="roadmap.html">Roadmap</a></li>
+          <li><a href="about.html#mission">Our mission</a></li>
+          <li><a href="devlog/index.html">Devlog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The house</h4>
+        <ul>
+          <li><a href="support.html">Support the game</a></li>
+          <li><a href="press.html">Press kit</a></li>
+          <li><a href="privacy.html">Privacy (draft)</a></li>
+          <li><a href="terms.html">Terms (draft)</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&copy; <span data-year>2026</span> Joust Revival. An independent game in development. Codex Manesse images: Heidelberg University Library, Cod. Pal. germ. 848, public domain. Fonts: Grenze Gotisch and EB Garamond, SIL Open Font License.</p>
+  </div>
+</footer>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
